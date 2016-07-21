@@ -7,7 +7,7 @@ struct byte
 };
 int main(int argc, char const *argv[])
 {
-	byte i;
+	byte i; 
 	for(i.a=1;i.a<=9;i.a++)
 		for(i.b=1;i.b<=9;i.b++)
 		{

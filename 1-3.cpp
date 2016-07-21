@@ -11,7 +11,7 @@ int main(int argc, char const *argv[])
 	return 0;
 }
 void sort_pie(int* a,int size)
-{
+{		
 	if(size==1)
 		return ;
 	int inf=-10;
