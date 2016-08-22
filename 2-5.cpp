@@ -4,10 +4,10 @@ int partition(int*a,int begin,int end);
 void select(int*a,int begin,int end,int n);
 int main(int argc, char const *argv[])
 {
-	int a[]={2,3,5,1,7,8,12,34,6,71,0,13,24};
+	int a[]={21,3,59,1,7,8,12,34,6,71,0,13,24};
 	int len=sizeof(a)/sizeof(int);
-	int n=12;
-	select(a,0,len-1,n);
+	int n=13;
+	select(a,0,len-1,n-1);
 	for(int i=0;i<len;i++)
 		cout<<a[i]<<endl;
 	return 0;
